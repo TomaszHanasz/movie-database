@@ -1,0 +1,39 @@
+.search__input {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: flex-end;
+  position: relative;
+}
+
+.search__input input {
+  width: 450px;
+  height: 2rem;
+  padding: 10px;
+}
+
+.search__list-container {
+  position: absolute;
+  top: 50px;
+  width: 450px;
+  max-height: 400px;
+  overflow-y: scroll;
+}
+
+.search__list {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.search__list img {
+  width: 45px;
+  height: 75px;
+  object-fit: cover;
+}
+
+.movie-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
