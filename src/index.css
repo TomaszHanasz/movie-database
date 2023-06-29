@@ -14,4 +14,5 @@ body {
   width: 80%;
   margin: 50px auto;
   background-color: #1a1a1a;
+  background-image: url("../src/components/moviesList/Hexagon.svg");
 }
