@@ -61,7 +61,6 @@
 .movie__description {
   padding: 20px;
   width: 100%;
-
   line-height: 2rem;
   height: 50vh;
   min-height: 50vh;
@@ -97,4 +96,75 @@ span {
   background-color: #ffffff;
   color: #222222;
   padding: 20px;
+}
+
+@media screen and (max-width: 1400px) {
+  .movies__home {
+    width: 100%;
+  }
+
+  .movie-container {
+    width: 100%;
+    height: fit-content;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .movies__home {
+    height: fit-content;
+  }
+
+  .movie-container {
+    flex-direction: column;
+    margin: 40px auto;
+  }
+
+  .movie__poster-big {
+    width: 40%;
+    min-width: 40%;
+    max-width: 40%;
+    height: 60%;
+    min-height: 60%;
+    max-height: 60%;
+    align-self: center;
+    padding-top: 20px;
+  }
+
+  .movie__description {
+    line-height: 1.5rem;
+    height: fit-content;
+    min-height: fit-content;
+    max-height: fit-content;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .home__top {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .search__input {
+    align-items: center;
+  }
+
+  .movie__poster-big {
+    width: 30%;
+    min-width: 30%;
+    max-width: 30%;
+    height: 40%;
+    min-height: 40%;
+    max-height: 40%;
+    align-self: center;
+    padding-top: 20px;
+  }
+  .movie__title {
+    font-size: 1.3rem;
+    padding-top: 20px;
+  }
+
+  .movie__description {
+    line-height: 1.3rem;
+  }
 }
