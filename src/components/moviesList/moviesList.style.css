@@ -67,7 +67,7 @@
   max-height: 50vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .movie__title {
@@ -78,9 +78,9 @@ span {
   color: #ff9900;
 }
 
-.movie__details {
+/* .movie__details {
   margin-top: 50px;
-}
+} */
 
 .movie__poster-big {
   width: 20%;
