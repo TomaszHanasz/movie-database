@@ -167,4 +167,12 @@ span {
   .movie__description {
     line-height: 1.3rem;
   }
+
+  .search__input input {
+    width: 300px;
+  }
+
+  .search__list-container {
+    width: 300px;
+  }
 }
