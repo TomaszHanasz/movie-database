@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import na from "./happybday.jpg";
+import na from "./na.jpg";
 import "./moviesList.style.css";
 
 const MoviesList = () => {
