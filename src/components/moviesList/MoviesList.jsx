@@ -17,7 +17,7 @@ const MoviesList = () => {
     const getMovie = async () => {
       try {
         const response = await fetch(
-          `http://www.omdbapi.com/?i=${el.imdbID}&apikey=e105f1d1`
+          `https://www.omdbapi.com/?i=${el.imdbID}&apikey=e105f1d1`
         );
         const data = await response.json();
         if (data) {
@@ -47,7 +47,7 @@ const MoviesList = () => {
     const searchList = async () => {
       try {
         const response = await fetch(
-          `http://www.omdbapi.com/?s=${movieName}&apikey=e105f1d1`
+          `https://www.omdbapi.com/?s=${movieName}&apikey=e105f1d1`
         );
         const data = await response.json();
         if (data.Search) {
